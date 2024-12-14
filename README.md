@@ -1,0 +1,2 @@
+# projeto-ave-maria
+ O projeto "AVE MARIA" é uma iniciativa dedicada a honrar e divulgar os títulos Marianos mais venerados pela Igreja Católica, além de promover a fé católica no Brasil. Este site tem como objetivo oferecer uma rica fonte de informações e inspirações sobre Nossa Senhora Aparecida, Nossa Senhora de Fátima, Nossa Senhora de Lourdes, Nossa Senhora de Guadalupe e Nossa Senhora das Graças.
