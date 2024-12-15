@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/bandeira-catolica.jpg" type="image/x-icon">
+    <title>Salve Rainha</title>
+</head>
+
+
+
+<header>
+    <h1>Salve Rainha</h1>
+    <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="#">Nossa Senhora Aparecida</a></li>
+            <li><a href="#">Nossa Senhora de Fátima</a></li>
+            <li><a href="#">Nossa Senhora de Lourdes</a></li>
+            <li><a href="#">Nossa Senhora de Guadalupe</a></li>
+            <li><a href="#">Nossa Senhora das Graças </a></li>
+        </ul>
+    </menu>
+</header>
+
+
+
+
+<script>
+
+    function clickMenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+    }
+</script>
+
+
+</body>
+
+</html>

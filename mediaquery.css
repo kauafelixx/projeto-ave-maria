@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+:root {
+  --cor1: #F2E205;
+  --cor2: #F2CB05;
+  --cor3: #A67D03;
+  --cor4: #D91604;
+  --cor5: #F2F2F2;
+
+
+  --font1: "Basic", sans-serif;
+
+  --font2: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+  header {
+    height: 143px;
+    background-color: var(--cor2);
+    background-image: url(flag-vatican-city.jpg);
+    background-position:center right ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    h1 {
+      font-size: 6vw;
+    }
+  }
+
+  #burger {
+    display: none;
+  }
+
+  menu {
+    display: block !important;
+  }
+
+  menu>ul>li {
+    display: inline-block;
+    font-size: .7em;
+    text-align: center;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    padding: 1px;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 10p;
+  }
+}
+
+@media screen and (min-width:992px) {
+  header {
+    height: 204px;
+    background-color: var(--cor2);
+    background-image: url(flag-vatican-city.jpg);
+    background-position:center right ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    h1 {
+      font-size: 6vw;
+    }
+  }
+
+  #burger {
+    display: none;
+  }
+
+  menu {
+    display: block !important;
+
+  }
+
+  menu>ul>li {
+    display: inline-block;
+  }
+
+  menu>ul>li {
+    display: inline-block;
+    font-size: 1.2em;
+    text-align: center;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    padding: 1px;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 10px;
+
+  }
+
+}
