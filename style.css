@@ -31,7 +31,7 @@ header {
     background-color: var(--cor2);
     height: 130px;
     background-color: var(--cor2);
-    background-image: url(flag-vatican-city.jpg);
+    background-image: url(img/header-bdr.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ header {
                     text-align: center;
                     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.357);
                     font-family: var(--font1);
-                    transition-duration: .5s;
+              
                 }
             }
         }
