@@ -109,14 +109,14 @@ header>#burger {
 }
 
 main {
-    background-color: #f2e205c6;
+    background-color: #f2e2059d;
 
 }
 
 main>p {
     font-family: var(--font2);
-    font-size: .8em;
-    padding: 30px;
+    font-size: .9em;
+    padding: 20px;
     text-indent: 10px;
     text-align: justify;
     line-height: 1.7em;
@@ -132,8 +132,8 @@ main>p {
 
 #senhora-aparecida>p {
     font-family: var(--font2);
-    font-size: .8em;
-    padding: 30px;
+    font-size: .9em;
+    padding: 20px;
     text-indent: 10px;
     text-align: justify;
     line-height: 1.7em;
@@ -149,7 +149,7 @@ main>p {
 #senhora-aparecida {
     font-family: var(--font2);
     font-size: .9em;
-    padding: 30px;
+    padding: 20px;
     text-indent: 10px;
     text-align: justify;
     line-height: 1.7em;
@@ -169,7 +169,7 @@ main>p {
 }
 
 #senhora-aparecida>p {
-    background-color: #f2f2f2ab;
+    background-color: #ffffffc2;
     padding: 20px;
 
 }
