@@ -52,7 +52,7 @@
 
 
   main{
-    background-color: #f2e2059d;
+    background-color: var(--cor5);
     width: 100vw;
     margin: auto;
     width: 99vw;
@@ -88,9 +88,9 @@ main>p{
   background-size: cover;
   background-repeat: no-repeat;
 background-attachment: fixed;
-box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.394);
+box-shadow: inset 2px 2px 10px rgb(57, 57, 57);
 
-  height: 300px;
+  height: 400px;
 }
 
 #img-aparecida1{
@@ -99,16 +99,16 @@ box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.394);
   background-size: cover;
   background-repeat: no-repeat;
 background-attachment: fixed;
-box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.438);
+box-shadow: inset 2px 2px 10px rgb(57, 57, 57);
 
-  height: 300px;
+  height: 400px;
 }
 
 .senhora-aparecida {
   width: 99vw;
   margin: auto;
   padding: 30px;
-box-shadow: inset 2px 2px 20px rgba(0, 0, 0, 0.628);
+
 
 }
 
@@ -182,7 +182,7 @@ iframe {
 
 
   main{
-    background-color: #f2e2059d;
+    background-color: var(--cor5);
     width: 100vw;
     margin: auto;
 }
@@ -217,8 +217,7 @@ margin: auto;
   width: 99vw;
   margin: auto;
   padding: 30px;
-box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.628);
-background-color: #f2e2059d;
+background-color: var(--cor5);
 }
 
 
@@ -228,9 +227,9 @@ background-color: #f2e2059d;
   background-size: cover;
   background-repeat: no-repeat;
 background-attachment: fixed;
-box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.394);
+box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.559);
 
-  height: 400px;
+  height: 500px;
 }
 
 #img-aparecida1{
@@ -239,9 +238,9 @@ box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.394);
   background-size: cover;
   background-repeat: no-repeat;
 background-attachment: fixed;
-box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.438);
+box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.559);
 
-  height: 400px;
+  height: 500px;
 }
 
 
