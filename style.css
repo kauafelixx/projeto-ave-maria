@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
 
+@font-face {
+    font-family: hotolie;
+    src: url(Hatolie.ttf);
+}
+
 :root {
     --cor1: #F2E205;
     --cor2: #F2CB05;
@@ -13,11 +18,15 @@
     --font1: "Basic", sans-serif;
 
     --font2: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    --font3: hotolie;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+
+
 }
 
 body,
@@ -25,25 +34,34 @@ html {
     width: 100vw;
     height: 100vh;
     background-color: var(--cor5);
+    overflow-x: hidden;
 }
 
 header {
-    background-color: var(--cor2);
-    height: 130px;
-    background-color: var(--cor2);
-    background-image: url(img/header-bdr.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: var(--cor5);
+    height: 50px;
+
+
+
+    div#img {
+        background-image: url(img/header-bdr.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 250px;
+box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.44);
+        width: 100vw;
+    }
 
     h1 {
-        font-family: var(--font1);
+        font-family: var(--font3);
         text-align: center;
-        padding-bottom: 20px;
-        vertical-align: middle;
-        padding-top: 30px;
+        margin-top: 20px;
         color: #000000;
+        font-size: 3.5em;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.463);
+        letter-spacing: 5px;
     }
 
     menu {
@@ -55,14 +73,18 @@ header {
             li {
                 a {
                     display: block;
-                    padding: 10px;
+                    padding: 7px;
+                    margin-left: 5px;
                     text-decoration: none;
-                    background-color: var(--cor2);
+                    background-color:  var(--cor5);
                     color: black;
-                    text-align: center;
-                    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.357);
-                    font-family: var(--font1);
-              
+                    text-align:justify;
+               text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.354);
+                    font-family: var(--font2);
+                    transition-duration: .1s;
+                    
+
+
                 }
             }
         }
@@ -70,14 +92,15 @@ header {
 }
 
 menu a:hover {
-    background-color: var(--cor3);
+    background-color: #c7c6c6;
 }
 
 #burger {
-    width: 97vw;
+    width: 99vw;
     display: block;
-    text-align: center;
-    padding: 8px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
-    box-shadow: 3px 1px 15px rgba(0, 0, 0, 0.563);
+    background-color: transparent;
 }
