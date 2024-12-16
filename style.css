@@ -35,6 +35,7 @@ html {
     height: 100vh;
     background-color: var(--cor5);
     overflow-x: hidden;
+ 
 }
 
 header {
@@ -104,3 +105,11 @@ menu a:hover {
     cursor: pointer;
     background-color: transparent;
 }
+
+
+main > .introducao{
+    background-color: #A67D03;
+    width: 20px;
+}
+
+ 
