@@ -25,7 +25,7 @@
 * {
     margin: 0px;
     padding: 0px;
-
+box-sizing: border-box;
 
 }
 
@@ -35,16 +35,18 @@ html {
     height: 100vh;
     background-color: var(--cor5);
     overflow-x: hidden;
+    
  
 }
 
-header {
-    background-color: var(--cor5);
-    height: 50px;
+
+header{
+    background-color: #F2F2F2;
+}
 
 
 
-    div#img {
+    header > div#img {
         background-image: url(img/header-bdr.jpg);
         background-position: center center;
         background-size: cover;
@@ -55,7 +57,7 @@ header {
         width: 100vw;
     }
 
-    h1 {
+   header > h1 {
         font-family: var(--font3);
         text-align: center;
         margin-top: 20px;
@@ -65,7 +67,9 @@ header {
         letter-spacing: 5px;
     }
 
-    menu {
+
+
+   header > menu {
         display: none;
 
         ul {
@@ -84,19 +88,17 @@ header {
                     font-family: var(--font2);
                     transition-duration: .1s;
 
-
-
                 }
             }
         }
     }
-}
 
-menu a:hover {
+
+header > menu > ul >li > a:hover {
     background-color: #c7c6c6;
 }
 
-#burger {
+header > #burger {
     width: 99vw;
     display: block;
     text-align: justify;
@@ -106,10 +108,28 @@ menu a:hover {
     background-color: transparent;
 }
 
-
-main > .introducao{
-    background-color: #A67D03;
-    width: 20px;
+main{
+    background-color: #f2e205c6;
 }
+
+main>p{
+    font-family: var(--font2);
+    font-size: .8em;
+    padding: 30px;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.388);
+    
+    strong{
+        color: #000000c1;
+    }
+}
+
+
+
+
+
+
 
  

@@ -18,10 +18,9 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
 
-  header {
-    height: 143px;
-    background-color: var(--cor5);
-  }
+body{
+  background-color: #f2e205c6;
+}
 
   header>h1 {
     font-size: 5em;
@@ -47,28 +46,48 @@
     padding: 1px;
     margin-left: 5px;
   }
+
+
+
+
+
+
+  main{
+    background-color: #f2e205c6;
+    width: 500px;
+    margin: auto;
+}
+main>p{
+  font-size: .8;
+  padding: 12px;
+}
+
+
+
+
 }
 
 @media screen and (min-width:992px) {
-  header {
-    height: 143px;
-    background-color: var(--cor5);
 
-    div#img {
-      background-image: url(img/header-bdr.jpg);
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      height: 400px;
-      box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.44);
-      width: 100vw;
-    }
+  body, html{
+    background-color: #f2e205c6;
+  }
+
+  header>div#img {
+    background-image: url(img/header-bdr.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.44);
+    width: 100vw;
   }
 
 
 
-  header>h1 {
+
+  header > h1 {
     font-size: 6em;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -89,8 +108,22 @@
     font-size: .9em;
     text-align: justify;
     border-radius: 5px;
-margin-right: 20px;
+    margin-right: 20px;
     margin-left: 40px;
     margin-bottom: 10px;
   }
+
+
+
+  main{
+    background-color: #f2e205c6;
+    width: 750px;
+    margin: auto;
+}
+
+main>p{
+  font-size: .9em;
+  padding: 15px;
+}
+
 }
