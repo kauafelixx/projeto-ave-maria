@@ -180,3 +180,81 @@ main>p {
     background-color:  var(--cor5);
 
 }
+
+
+
+
+#img-fatima{
+    background-image: url(img/fatima-cel.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
+
+    height: 300px;
+}
+
+#img-fatima1{
+    background-image: url(img/pastorinhos-cel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
+
+    height: 300px;
+}
+
+#img-fatima2{
+    background-image: url(img/sol-cel.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
+
+    height: 300px;
+}
+
+#img-fatima3{
+    background-image: url(img/santuario-cel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
+
+    height: 300px;
+}
+
+
+.senhora-fatima>p {
+    font-family: var(--font2);
+    font-size: .9em;
+    padding: 20px;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.388);
+    padding: 20px;
+
+    strong {
+        color: #000000c1;
+        font-size: 1.1em;
+        font-family: var(--font2);
+    }
+}
+
+
+.senhora-fatima {
+    font-family: var(--font2);
+    font-size: .9em;
+    padding: 20px;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
+    background-color:  var(--cor5);
+
+}
