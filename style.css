@@ -12,7 +12,7 @@
     --cor2: #F2CB05;
     --cor3: #A67D03;
     --cor4: #D91604;
-    --cor5: #F2F2F2;
+    --cor5: #dadadaad;
 
 
     --font1: "Basic", sans-serif;
@@ -38,6 +38,8 @@ html {
 
 
 }
+
+
 
 
 header {
@@ -115,13 +117,14 @@ box-shadow: 1px 1px 2px var(--cor3);
 
 main {
     background-color: var(--cor5);
+    padding: 40px;
 
 }
 
 main>p {
     font-family: var(--font2);
-    font-size: .9em;
-    padding: 20px;
+    font-size: .8em;
+    padding: 10px;
 
     text-align: justify;
     line-height: 1.7em;
@@ -157,19 +160,8 @@ main>p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
-
-    height: 300px;
-}
-
-#img-aparecida1 {
-    background-image: url(aparecida-sp-cel.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
+ background-attachment: fixed;
+   box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.712);
 
     height: 300px;
 }
@@ -177,7 +169,7 @@ main>p {
 .senhora-aparecida {
     font-family: var(--font2);
     font-size: .9em;
-    padding: 20px;
+    padding: 40px;
     text-align: justify;
     line-height: 1.7em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
@@ -194,44 +186,10 @@ main>p {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.712);
 
     height: 300px;
 }
-
-#img-fatima1{
-    background-image: url(img/pastorinhos-cel.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
-
-    height: 300px;
-}
-
-#img-fatima2{
-    background-image: url(img/sol-cel.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
-
-    height: 300px;
-}
-
-#img-fatima3{
-    background-image: url(img/santuario-cel.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.657);
-
-    height: 300px;
-}
-
 
 .senhora-fatima>p {
     font-family: var(--font2);
@@ -253,7 +211,52 @@ main>p {
 .senhora-fatima {
     font-family: var(--font2);
     font-size: .9em;
+    padding: 40px;
+    text-align: justify;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
+    background-color:  var(--cor5);
+
+}
+
+
+
+
+#img-lourdes{
+    background-image: url(img/lourdes-cel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ background-attachment: fixed;
+ box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.712);
+
+    height: 300px;
+}
+
+.senhora-lourdes>p {
+    font-family: var(--font2);
+    font-size: .9em;
     padding: 20px;
+    text-align: justify;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.388);
+    padding: 20px;
+
+    strong {
+        color: #000000c1;
+        font-size: 1.1em;
+        font-family: var(--font2);
+    }
+}
+
+
+
+
+
+.senhora-lourdes {
+    font-family: var(--font2);
+    font-size: .9em;
+    padding: 40px;
     text-align: justify;
     line-height: 1.7em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
