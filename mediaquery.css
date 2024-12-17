@@ -67,12 +67,11 @@ main>p{
 .senhora-aparecida>p{
   font-family: var(--font2);
   font-size: .9em;
-  padding: 25px;
-  text-indent: 10px;
+  padding: 35px;
   text-align: justify;
   line-height: 1.7em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-  width: 600px;
+  width: 500px;
   margin: auto;
 
   strong {
@@ -116,12 +115,11 @@ box-shadow: inset 2px 2px 10px rgb(57, 57, 57);
 .senhora-fatima>p{
   font-family: var(--font2);
   font-size: .9em;
-  padding: 25px;
-  text-indent: 10px;
+  padding: 35px;
   text-align: justify;
   line-height: 1.7em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-  width: 600px;
+  width: 500px;
   margin: auto;
 
   strong {
@@ -281,12 +279,11 @@ margin: auto;
 .senhora-aparecida>p{
   font-family: var(--font2);
   font-size: .9em;
-  padding: 25px;
-  text-indent: 10px;
+  padding: 45px;
   text-align: justify;
   line-height: 2em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-  width: 800px;
+  width: 500px;
   margin: auto;
 
   strong {
@@ -332,12 +329,11 @@ box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.559);
 .senhora-fatima>p{
   font-family: var(--font2);
   font-size: .9em;
-  padding: 25px;
-  text-indent: 10px;
+  padding: 45px;
   text-align: justify;
   line-height: 2em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-  width: 800px;
+  width: 500px;
   margin: auto;
 
   strong {
