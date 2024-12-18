@@ -2,7 +2,7 @@
 
 :root {
   --cor1: #F2E205;
-  --cor2: #F2CB05;
+  --cor2: #f2cb05;
   --cor3: #A67D03;
   --cor4: #D91604;
   --cor5: #F2F2F2;
@@ -21,6 +21,13 @@
   body {
     background-color: var(--cor2);
   }
+
+  hr{
+    height: 10px;
+    background-color: black;
+    border: none;
+    width: 100vw;
+}
 
 
   header>h1 {
@@ -270,7 +277,44 @@
     width: 100vw;
     max-width: 100vw;
     height: 350px;
+    margin-top: 5px;
+    
   }
+
+
+  #final01{
+    background-image: url(img/final-tablet.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 60px 60px 100px rgba(0, 0, 0, 0.712);
+    height: 400px;
+  }
+
+  #final01 p{
+    font-family: var(--font2);
+    font-size: .8em;
+    text-align: justify;
+   margin: auto;
+padding: 30px;
+    line-height: 1.7em;
+color: #000000;
+    background-color: #ffffff81;
+ border-radius: 10px ; 
+ width: 400px;
+}
+
+#final01>h1{
+    font-family: var(--font5);
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.41);
+    color: var(--cor5);
+}
 
 }
 
@@ -541,6 +585,56 @@
     width: 100vw;
     max-width: 100vw;
     height: 450px;
+    margin-top: 5px;
   }
 
+  #final01>p{
+    font-family: var(--font1);
+    font-size: .8em;
+    text-align: justify;
+    line-height: 1.7em;
+    padding: 80px;
+    width: 500px;
+   text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.378);
+    color: black;
+  }
+  
+  #final01>h1{
+    font-family: var(--font5);
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 5px rgba(4, 4, 4, 0.388);
+    color: var(--cor5);
+    padding: 20px;
+  }
+  
+  
+  #final01{
+    background-color: var(--cor2);
+
+  
+  
+    background-image: url(img/final-desktop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 100px 100px 120px rgba(0, 0, 0, 0.712);
+    height: 500px;
+  }
+  
+  
+  hr{
+    height: 10px;
+    background-color: black;
+    width: 450px;
+      margin: auto;
+    width: 100vw;
+  }
+  
 }
+
+
+
+
