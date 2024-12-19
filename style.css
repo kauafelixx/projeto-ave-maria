@@ -47,6 +47,7 @@ html {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    background-color: var(--cor5);
 }
 
 
@@ -169,7 +170,7 @@ main>p {
 }
 
 #img-aparecida {
-    background-image: url(img/aparecida-cel.png);
+    background-image: url(img/aparecida-tablet.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

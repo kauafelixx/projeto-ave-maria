@@ -401,7 +401,7 @@ color: #000000;
   }
 
   #img-aparecida {
-    background-image: url(img/aparecida-desktop.png);
+    background-image: url(img/aparecida-tablet.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
