@@ -427,3 +427,33 @@ padding-right: 60px;
 padding-left: 20px;
 
 }
+
+footer{
+    background-color: var(--cor2);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    border-top:1px solid black;
+}
+.h4-foot{
+    font-family: var(--font1);
+    font-size: 1em;
+padding-bottom: 5px;
+
+}
+footer>#direitos>li>a{
+    text-decoration: none;
+    color: #000000;
+
+font-family: var(--font2);
+font-size: .8em;
+
+
+}
+footer>#direitos>li{
+    list-style-type: none;  
+}
+footer>#direitos>li>a:hover{
+    text-decoration: underline black;
+ 
+}
