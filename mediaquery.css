@@ -14,632 +14,96 @@
 }
 
 
+@media (min-width: 992px){
 
-
-@media screen and (min-width:766px) and (max-width:990px) {
-
-
-
-  hr{
-    height: 25px;
-    background-color: var(--cor2);
-    border: none;
-    width: 100vw;
+  header{
+    text-align: center;
+  }
+  header>menu>ul>li>a:hover{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  }
+  .containe {
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    border-radius: 8px;
 }
-
-
-  header>h1 {
-    font-size: 5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  header>#burger {
-    display: none;
-  }
-
-  header>menu {
-    display: block !important;
-  }
-
-  header>menu>ul>li {
-    display: inline-block;
-    justify-content: center;
-    font-size: .7em;
-    text-align: justify;
-    border-radius: 5px;
-    padding: 1px;
-    margin-left: 5px;
-  }
-
-  main {
-    background-color: var(--cor5);
-    width: 100vw;
-    margin: auto;
-    width: 99vw;
-    padding: 70px;
-  }
-
-  main>p {
-    font-size: .8;
-    padding: 25px;
-  }
-
-  .senhora-aparecida>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 35px;
-    text-align: justify;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.em;
-      font-family: var(--font2);
-    }
-  }
-
-  #img-aparecida {
+.salve-rainha {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80vw;
+margin: 30px auto;
+border-radius: 8px;
+box-shadow: 3px 3px 10px #33333388;
+  #img-aparecida, #img-fatima, #img-lourdes, #img-guadalupe, #img-gracas, #img-final, #img {
+margin: 0px;
+    width: 40%;
     background-image: url(img/aparecida-tablet.png);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.712);
-    height: 400px;
+  box-shadow: none;
+  border-radius: 8px 0px 0px 8px;
+
+  
+
   }
-
-  .senhora-aparecida {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-  }
-
-
-  .senhora-fatima>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 35px;
-    text-align: justify;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.em;
-      font-family: var(--font2);
-    }
-  }
-
-
-  .senhora-fatima {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-  }
-
-  #img-fatima {
+  #img-fatima{
     background-image: url(img/fatima-tablet.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.712);
-    height: 400px;
-  }
-
-  #img-lourdes {
+   
+}
+#img-lourdes{
     background-image: url(img/lourdes-tablet.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.712);
-    height: 400px;
-  }
-
-  .senhora-lourdes>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 35px;
-    text-align: justify;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.em;
-      font-family: var(--font2);
-    }
-  }
-
-
-  .senhora-lourdes {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-  }
-
-
-
-
-  #img-guadalupe {
+  
+}
+#img-guadalupe{
     background-image: url(img/guadalupe-tablet.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.712);
-    height: 400px;
-  }
-
-  .senhora-guadalupe>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 35px;
-    text-align: justify;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.em;
-      font-family: var(--font2);
-    }
-  }
-
-
-  .senhora-guadalupe {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-  }
-
-
-
-
-  #img-gracas {
+}
+#img-gracas{
     background-image: url(img/gracas-tablet.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.712);
-    height: 400px;
-  }
-
-  .senhora-gracas>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 35px;
-    text-align: justify;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.em;
-      font-family: var(--font2);
-    }
-  }
-
-
-  .senhora-gracas {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-  }
-
-
-  .text-video>p {
-    font-family: var(--font2);
-    font-size: .8em;
-    text-align: justify;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.388);
-    width: 450px;
-    margin: auto;
-    padding: 20px;
-  }
-
-  .text-video {
-    background-color: var(--cor2);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.624);
-  }
-
-  .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: auto;
-    padding: 0px;
-    background-color: var(--cor2);
-  }
-
-  iframe {
-    width: 100vw;
-    max-width: 100vw;
-    height: 350px;
-
-    
-  }
-
-
-  #final01{
-    background-image: url(img/final-tablet.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 60px 60px 100px rgba(0, 0, 0, 0.712);
-    height: 400px;
-  }
-
-  #final01 p{
-    font-family: var(--font2);
-    font-size: .8em;
-    text-align: justify;
-   margin: auto;
-padding: 30px;
-    line-height: 1.7em;
-color: #000000;
-    background-color: #ffffff81;
- border-radius: 10px ; 
- width: 400px;
 }
+#img-final{
+  background-image: url(img/final-tablet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-#final01>h1{
-    font-family: var(--font5);
-    font-size: 2em;
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.41);
-    color: var(--cor5);
 }
-.pai{
-  background-color: var(--cor2);
-  width: 100vw;
+#img{
+  background-image: url(img/header-bdr.jpg);
+  background-size:  cover;
 }
 }
 
 
 
-@media screen and (min-width:990px) {
 
 
+p {
+  width: 60%;
+  padding-left: 20px;
+}
 
+header>menu {
+  display: block !important;
+}
+header>menu>ul>li {
+  display: inline-block;
+  justify-content: center;
+  font-size: .7em;
+  text-align: justify;
+  border-radius: 5px;
+  padding: 1px;
+  margin-left: 5px;
+}
 
-  header>div#img {
-    background-image: url(img/header-bdr.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 400px;
-    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.44);
-    width: 100vw;
-  }
-
-  header>h1 {
-    font-size: 6em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  header>#burger {
-    display: none;
-  }
-
-  header>menu {
-    display: block !important;
-  }
-
-  header>menu>ul>li {
-    display: inline-block;
-    justify-content: center;
-    font-size: .9em;
-    text-align: justify;
-    border-radius: 5px;
-    margin-right: 20px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-  }
-
-  main {
-    background-color: var(--cor5);
-    width: 100vw;
-    margin: auto;
-  }
-
-  main>p {
-    font-size: .9em;
-    padding: 25px;
-    margin: auto;
-    width: 800px;
-  }
-
-  .senhora-aparecida>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 45px;
-    text-align: justify;
-    line-height: 2em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.1em;
-      font-family: var(--font2);
-    }
-  }
-
-  .senhora-aparecida {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-    background-color: var(--cor5);
-  }
-
-  #img-aparecida {
-    background-image: url(img/aparecida-tablet.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.559);
-    height: 500px;
-  }
-
-  .senhora-fatima>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 45px;
-    text-align: justify;
-    line-height: 2em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.1em;
-      font-family: var(--font2);
-    }
-  }
-
-  .senhora-fatima {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-    background-color: var(--cor5);
-  }
-
-  #img-fatima {
-    background-image: url(img/fatima-desktop.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.559);
-    height: 500px;
-  }
-
-  #img-lourdes {
-    background-image: url(img/lourdes-desktop.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.559);
-    height: 500px;
-  }
-
-  .senhora-lourdes>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 45px;
-    text-align: justify;
-    line-height: 2em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.1em;
-      font-family: var(--font2);
-    }
-  }
-
-  .senhora-lourdes {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-    background-color: var(--cor5);
-  }
-
-
-
-
-
-
-  #img-guadalupe {
-    background-image: url(img/guadalupe-desktop.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.559);
-    height: 500px;
-  }
-
-  .senhora-guadalupe>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 45px;
-    text-align: justify;
-    line-height: 2em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.1em;
-      font-family: var(--font2);
-    }
-  }
-
-  .senhora-guadalupe {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-    background-color: var(--cor5);
-  }
-
-  #img-gracas {
-    background-image: url(img/gracas-desktop.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.559);
-    height: 500px;
-  }
-
-  .senhora-gracas>p {
-    font-family: var(--font2);
-    font-size: .9em;
-    padding: 45px;
-    text-align: justify;
-    line-height: 2em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
-    width: 500px;
-    margin: auto;
-
-    strong {
-      color: #000000c1;
-      font-size: 1.1em;
-      font-family: var(--font2);
-    }
-  }
-
-  .senhora-gracas {
-    width: 99vw;
-    margin: auto;
-    padding: 30px;
-    background-color: var(--cor5);
-  }
-
-  .text-video>p {
-    font-family: var(--font2);
-    font-size: .8em;
-    text-align: justify;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.388);
-    width: 450px;
-    margin: auto;
-    padding: 20px;
-  }
-
-  .text-video {
-    background-color: var(--cor2);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.624);
-  }
-
-  .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70vw;
-    margin: auto;
-    height: auto;
-    padding: 0px;
-    background-color: var(--cor2);
-
-  }
-
-  iframe {
-    width: 100vw;
-    max-width: 100vw;
-    height: 450px;
-box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.587);
-  }
-
-  #final01>p{
-    font-family: var(--font1);
-    font-size: .8em;
-    text-align: justify;
-    line-height: 1.7em;
-    padding: 80px;
-    width: 500px;
-   text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.378);
-    color: black;
-  }
-  
-  #final01>h1{
-    font-family: var(--font5);
-    font-size: 2em;
-    text-align: center;
-    line-height: 1.7em;
-    text-shadow: 1px 1px 5px rgba(4, 4, 4, 0.388);
-    color: var(--cor5);
-    padding: 20px;
-  }
-  
-  
-  #final01{
-    background-color: var(--cor2);
-
-  
-  
-    background-image: url(img/final-desktop.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 100px 100px 120px rgba(0, 0, 0, 0.712);
-    height: 500px;
-  }
-  
-  
-  hr{
-    height: 30px;
-    background-color: var(--cor2);
-  
-      margin: auto;
-    width: 100vw;
-  }
-  .pai{
-    background-color: var(--cor2);
-    width: 100vw;
-  }
+header>#burger{
+  display: none;
 }
 
 
+
+}
 
 
